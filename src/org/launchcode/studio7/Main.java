@@ -7,12 +7,10 @@ public class Main {
         // TODO: Declare and initialize a CD and a DVD object.
         CD newCD = new CD("Fashion Nugget",
                 700,
-                174,
                 526);
 
         DVD newDVD = new DVD("Waking Life",
-                5000,
-                896, 4004);
+                5000, 4004);
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
 

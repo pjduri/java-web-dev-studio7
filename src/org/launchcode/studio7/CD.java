@@ -4,7 +4,7 @@ public class CD extends BaseDisc implements OpticalDisc {
 
     // TODO: Implement your custom interface.
 
-    public CD(String name, int storageCapacity, int remainingCapacity, int capacityUsed) {
+    public CD(String name, int storageCapacity, int capacityUsed) {
         super(name, storageCapacity, capacityUsed, "cd");
     }
 

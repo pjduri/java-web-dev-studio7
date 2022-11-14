@@ -3,7 +3,7 @@ package org.launchcode.studio7;
 public class DVD extends BaseDisc implements OpticalDisc {
 
     // TODO: Implement your custom interface.
-    public DVD(String name, int storageCapacity, int remainingCapacity, int capacityUsed) {
+    public DVD(String name, int storageCapacity, int capacityUsed) {
         super(name, storageCapacity, capacityUsed, "dvd");
     }
 
