@@ -9,7 +9,7 @@ public abstract class BaseDisc {
     private int capacityUsed;
     private String discType;
 
-    public BaseDisc(String name, int storageCapacity, int remainingCapacity, int capacityUsed, String discType) {
+    public BaseDisc(String name, int storageCapacity, int capacityUsed, String discType) {
         this.name = name;
         this.storageCapacity = storageCapacity;
         this.capacityUsed = capacityUsed;

@@ -5,7 +5,7 @@ public class CD extends BaseDisc implements OpticalDisc {
     // TODO: Implement your custom interface.
 
     public CD(String name, int storageCapacity, int remainingCapacity, int capacityUsed) {
-        super(name, storageCapacity, remainingCapacity, capacityUsed, "cd");
+        super(name, storageCapacity, capacityUsed, "cd");
     }
 
     // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
