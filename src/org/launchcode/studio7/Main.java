@@ -9,10 +9,16 @@ public class Main {
                 700,
                 526);
 
-        DVD newDVD = new DVD("Waking Life",
-                5000, 4004);
+        DVD newDVD = new DVD("Vox Machina",
+                5000,
+                4004);
 
         // TODO: Call each CD and DVD method to verify that they work as expected.
+        newCD.spinDisc();
+        newCD.readData();
+
+        newDVD.spinDisc();
+        newDVD.readData();
 
     }
 }
