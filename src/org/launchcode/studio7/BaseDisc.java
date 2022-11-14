@@ -8,7 +8,6 @@ public abstract class BaseDisc {
     private int storageCapacity;
     private int capacityUsed;
     private String discType;
-    ArrayList<String> contents;
 
     public BaseDisc(String name, int storageCapacity, int remainingCapacity, int capacityUsed, String discType) {
         this.name = name;
@@ -67,10 +66,6 @@ public abstract class BaseDisc {
 
     public String getDiscType() {
         return discType;
-    }
-
-    public ArrayList<String> getContents() {
-        return contents;
     }
 
 }
