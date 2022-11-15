@@ -13,6 +13,15 @@ public class Main {
         cd.readData();
         dvd.readData();
 
+        // practicing watch expression
+        cd.setName("Debugging practice");
+        cd.setName("Watch term should pick one of these strings");
+        cd.setName("But which one will it be?");
+        cd.setName("Maybe this one?");
+        cd.setName("Definitely this one.");
+        cd.setName("Maybe this one?");
+        cd.setName("Or this one?");
+
         System.out.println(cd.writeData(275));
         System.out.println(dvd.writeData(8000));
 
